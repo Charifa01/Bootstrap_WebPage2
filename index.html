@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;500&family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;1,100;1,300;1,400;1,800&family=Open+Sans:wght@300;400;600&family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="page d-flex">
+     <div class="slide-bar pt-4 bg-light overflow-hidden">
+        <h3 class="text-center pb-3">Chari</h3>
+        <ul class="nav flex-column mt-5">
+            <li class="nav-item">
+              <a class="nav-link d-flex active" aria-current="page" href="index.html">
+                <i class="fa-solid fa-chart-bar"></i> <span class="d-none d-md-inline">Dashbord</span>  
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex" href="setting.html">
+                <i class="fa-solid fa-gear"></i><span class="d-none d-md-inline">Settings</span> 
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex" href="profile.html">
+                <i class="fa-regular fa-user"></i> <span class="d-none d-md-inline">Profile</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex" href="projects.html">
+                <i class="fa-solid fa-diagram-project"></i> <span class="d-none d-md-inline">Projects</span>
+              </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link d-flex" href="courses.html">
+                    <i class="fa-solid fa-graduation-cap"></i> <span class="d-none d-md-inline">Courses</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link d-flex" href="friends.html">
+                    <i class="fa-regular fa-circle-user"></i><span class="d-none d-md-inline">Friends</span> 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex" href="files.html">
+                    <i class="fa-regular fa-file"></i> <span class="d-none d-md-inline">Files</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex " href="plans.html">
+                    <i class="fa-regular fa-credit-card"></i> <span class="d-none d-md-inline">Plans</span>
+                </a>
+              </li>
+          </ul>
+    </div>
+    <div class="content">
+        <div class="head d-flex align-items-center justify-content-between bg-light">
+            <div class="search position-relative">
+                <input class="rounded" type="search" placeholder="type a Keyword">
+            </div>
+            <div class="icons h-100 d-flex align-items-center">
+                <span class="icon m-3 fs-5 position-relative">
+                    <i class="fa-regular fa-bell"></i>
+                </span>
+                <img class="img-fuild h-100 rounded-circle" src="imgs/avatar2.jpeg" alt="">
+            </div>
+        </div>
+        <div class="body">
+            <h1 class="ms-4 mt-4 fw-bold position-relative pb-2">Dashboard</h1>
+            <div class="boxs row m-3">
+                <div class="col-sm-12 col-lg-6 p-0  mt-4">
+                    <div class="box ms-3 me-3 bg-light">
+                        <div class="intro w-100 d-flex justify-content-between position-relative rounded-top">
+                            <div class="part1">
+                                <h2 class=" ps-4 pt-4 pb-0">Welcome</h2>
+                                <span class="ps-4 text-black-50">Charifa</span>
+                            </div>
+                            <img class="mt-4 me-4 mb-2 d-none d-md-block"  src="imgs/welcome.png" alt="">
+                            <img class="user position-absolute" src="imgs/avatar2.jpeg" alt="">
+                        </div>
+                        <div class="box-content row pt-4 pb-4">
+                            <div class="name col-sm-12 col-md-4">
+                                Charifa Bonagat <br>
+                                <span class="text-black-50">Developer</span>
+                            </div>
+                            <div class="projects col-sm-12 col-md-4">
+                                80 <br>
+                                <span class=" text-black-50">Projects</span>
+                            </div>
+                            <div class="money col-sm-12 col-md-4">
+                                $8500 <br>
+                                <span class=" text-black-50">Earned</span>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-4 me-3 pb-4 justify-content-end">
+                            <button class="btn btn-primary fs-6 pt-1 pb-1"> Profile</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 p-0 mt-4">
+                    <div class="box ms-3 me-3 bg-light p-4">
+                        <h2 class=" pb-0">Quick Draft</h2>
+                        <span class=" text-black-50">Write A Draft For Your Ideas</span>
+                        <div class="mb-4">
+                            <input type="text outline-none" class="form-control mt-4" placeholder="Title">
+                          </div>
+                          <div class="mb-4">
+                            <textarea class="form-control" placeholder="Your Thought" rows="6"></textarea>
+                          </div>
+                          <div class="d-flex mt-4 me-3 justify-content-end">
+                            <button class="btn btn-primary fs-6 pt-1 pb-1"> save</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-6 p-0 mt-4">
+                    <div class="box  ms-3 me-3  bg-light p-4">
+                        <h2 class=" pb-0">Yearly Targets</h2>
+                        <span class=" text-black-50">Targets Of The Year</span>
+                        <div class="child mt-4">
+                            <div class="row">
+                                <div class="icon col-3 d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                                </div>
+                                <div class="details col-9">
+                                <span class=" text-black-50">Money</span>
+                                 <p> $20.000</p>
+                                 <div class="range">
+                                    <span></span>
+                                 </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="child second mt-4">
+                            <div class="row">
+                                <div class="icon col-3 d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
+                                <div class="details col-9">
+                                <span class=" text-black-50">Projects</span>
+                                 <p> 24</p>
+                                 <div class="range">
+                                    <span></span>
+                                 </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="child last mt-4 pb-2">
+                            <div class="row">
+                                <div class="icon col-3 d-flex justify-content-center align-items-center pb-2">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="details col-9">
+                                <span class=" text-black-50">Team</span>
+                                 <p> 12</p>
+                                 <div class="range">
+                                    <span></span>
+                                 </div>
+                                </div>
+                            </div>
+                          </div>
+                          
+                         
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 mt-4">
+                    <div class="box bg-light p-4">
+                        <h2 class=" pb-0">Tickets Statistics</h2>
+                        <span class=" text-black-50">Everything About Support Tickets</span>
+                        <div class="carts pb-3 row ">
+                            <div class="col-6">
+                                <div class="cart pt-3 pb-3 text-center mt-3 orange">
+                                    <i class="fa-regular fa-rectangle-list fa-2x mb-10 c-orange"></i>
+                                    <p>2500</p>
+                                    <span class=" text-black-50">Total</span>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="cart pt-3 pb-3 text-center mt-3 blue">
+                                    <i class="fa-solid fa-spinner fa-2x mb-10"></i>
+                                    <p>2500</p>
+                                    <span class=" text-black-50">Total</span>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="cart pt-3 pb-3 text-center mt-3 green">
+                                    <i class="fa-regular fa-circle-check fa-2x mb-10 "></i>
+                                    <p>2500</p>
+                                    <span class=" text-black-50">Total</span>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="cart pt-3 pb-3 text-center mt-3 mb-2 red">
+                                    <i class="fa-regular fa-rectangle-xmark fa-2x mb-10"></i>
+                                    <p>2500</p>
+                                    <span class=" text-black-50">Total</span>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 mt-4">
+                    <div class="box bg-light p-4" >
+                        <h2 class=" pb-0">Latest News</h2>
+                        <div class="news">
+                            <div class="row ps-2 pb-4 pt-4">
+                                <img class="col-sm-12 col-lg-3 p-0 m-auto" src="imgs/news-01.png" alt="">
+                                <div class="info pe-0 mt-2 col-sm-12 col-lg-6 text-center">
+                                    <h5 class="m-0 ps-2 pb-1">Created SASS Section</h5>
+                                    <span class="ps-2 text-black-50">New SASS Examples & Tutorials</span>
+                                </div>
+                                <div class="col-sm-12 col-lg-3 mt-2 button d-flex justify-content-center align-items-center">
+                                    <span>3 Days Ago</span>
+                                </div>
+                            </div>
+                            <div class="row ps-2 pb-4 pt-4">
+                                <img class="col-sm-12 col-lg-3 p-0 m-auto" src="imgs/news-02.png" alt="">
+                                <div class="info pe-0 mt-2 col-sm-12 col-lg-6 text-center">
+                                    <h5 class="m-0 ps-2 pb-1">Changed The Design</h5>
+                                    <span class="ps-2 text-black-50">A Brand New Website Design</span>
+                                </div>
+                                <div class="col-sm-12 col-lg-3 mt-2 button d-flex justify-content-center align-items-center">
+                                    <span>5 Days Ago</span>
+                                </div>
+                            </div>
+                            <div class="row ps-2 pb-4 pt-4">
+                                <img class="col-sm-12 col-lg-3 p-0 m-auto" src="imgs/news-03.png" alt="">
+                                <div class="info pe-0 mt-2 col-sm-12 col-lg-6 text-center">
+                                    <h5 class="m-0 ps-2 pb-1">Team Increased</h5>
+                                    <span class="ps-2 text-black-50">3 Developers Joined The Team</span>
+                                </div>
+                                <div class="col-sm-12 col-lg-3 mt-2 button d-flex justify-content-center align-items-center">
+                                    <span>7 Days Ago</span>
+                                </div>
+                            </div>
+                            <div class="row ps-2  pt-4">
+                                <img class="col-sm-12 col-lg-3 p-0 m-auto" src="imgs/news-04.png" alt="">
+                                <div class="info pe-0 mt-2 col-sm-12 col-lg-6 text-center">
+                                    <h5 class="m-0 ps-2 pb-1">Added Payment Gateway</h5>
+                                    <span class="ps-2 text-black-50">Many New Payment Gateways Added</span>
+                                </div>
+                                <div class="col-sm-12 col-lg-3 mt-2 button d-flex justify-content-center align-items-center">
+                                    <span>9 Days Ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 mt-4">
+                    <div class="box bg-light p-4">
+                        <h2 class="pb-3">Latest Tasks</h2>
+                        <div class="tasks">
+                            <div class="task mt-2 pb-3 d-flex justify-content-between align-items-center">
+                                <div class="info pe-0 mt-2 col-sm-12 col-lg-6">
+                                    <h6 class="m-0 pb-1">Record One New Video</h6>
+                                    <span class="text-black-50">Record Python Create Exe Project</span>
+                                </div>
+                                <div class="icon">
+                                    <i class="fa-regular fa-trash-can" style="font-size: 19px;"></i>
+                                </div>
+                            </div>
+                            <div class="task mt-2 pb-3 d-flex justify-content-between align-items-center">
+                                <div class="info pe-0 mt-2 col-sm-12 col-lg-6">
+                                    <h6 class="m-0 pb-1">Write Article</h6>
+                                    <span class="text-black-50">Write Low Level vs High Level Languages</span>
+                                </div>
+                                <div class="icon">
+                                    <i class="fa-regular fa-trash-can" style="font-size: 19px;"></i>
+                                </div>
+                            </div>
+                            <div class="task mt-2 pb-3 d-flex justify-content-between align-items-center">
+                                <div class="info pe-0 mt-2 col-sm-12 col-lg-6">
+                                    <h6 class="m-0 pb-1">Finish Project</h6>
+                                    <span class="text-black-50">Publish Academy Programming Project</span>
+                                </div>
+                                <div class="icon">
+                                    <i class="fa-regular fa-trash-can" style="font-size: 19px;"></i>
+                                </div>
+                            </div>
+                            <div class="task mt-2 pb-3 d-flex justify-content-between align-items-center">
+                                <div class="info pe-0 mt-2 col-sm-12 col-lg-6">
+                                    <h6 class="text-black-50 m-0 pb-1 text-decoration-line-through">Attend The Meeting</h6>
+                                    <span class="text-black-50 text-decoration-line-through">Attend The Project Business Analysis Meeting</span>
+                                </div>
+                                <div class="icon text-black-50">
+                                    <i class="fa-regular fa-trash-can" style="font-size: 19px;"></i>
+                                </div>
+                            </div>
+                            <div class="task mt-2 pb-3 d-flex justify-content-between align-items-center">
+                                <div class="info pe-0 mt-2 col-sm-12 col-lg-6">
+                                    <h6 class="m-0 pb-1">Finish Lesson</h6>
+                                    <span class="text-black-50">Finish Teaching Flex Box</span>
+                                </div>
+                                <div class="icon">
+                                    <i class="fa-regular fa-trash-can" style="font-size: 19px;"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 mt-4">
+                    <div class="box bg-light p-4" >
+                        <h2 class=" pb-0 ">Top Search Items</h2>
+                            <div class="item d-flex justify-content-between pt-4 pb-3">
+                                <div class="Keyword">
+                                    <span class="text-black-50" style="font-size: 17px;">keyword</span>
+                                </div>
+                                <div class="Search-Count">
+                                    <span class="text-black-50" style="font-size: 17px;">Search Count</span>
+                                </div>
+                            </div>
+                            <div class="item d-flex justify-content-between pt-3 pb-3">
+                                <div class="Keyword">
+                                    <span class="">Programming</span>
+                                </div>
+                                <div class="Search-Count">
+                                    <span class="butn text-center">220</span>
+                                </div>
+                            </div>
+                            <div class="item d-flex justify-content-between pt-3 pb-3">
+                                <div class="Keyword">
+                                    <span class="">JavaScript</span>
+                                </div>
+                                <div class="Search-Count">
+                                    <span class="butn text-center">180</span>
+                                </div>
+                            </div>
+                            <div class="item d-flex justify-content-between pt-3 pb-3">
+                                <div class="Keyword">
+                                    <span class="">PHP</span>
+                                </div>
+                                <div class="Search-Count">
+                                    <span class="butn text-center">160</span>
+                                </div>
+                            </div>
+                            <div class="item d-flex justify-content-between pt-3 pb-3">
+                                <div class="Keyword">
+                                    <span class="">Design</span>
+                                </div>
+                                <div class="Search-Count">
+                                    <span class="butn text-center">110</span>
+                                </div>
+                            </div>
+                            <div class="item d-flex justify-content-between pt-3 pb-3">
+                                <div class="Keyword">
+                                    <span class="">Code</span>
+                                </div>
+                                <div class="Search-Count">
+                                    <span class="butn text-center">145</span>
+                                </div>
+                            </div>
+                            <div class="item d-flex justify-content-between pt-3 pb-3">
+                                <div class="Keyword">
+                                    <span class="">Logic</span>
+                                </div>
+                                <div class="Search-Count ">
+                                    <span class="butn text-center">95</span>
+                                </div>
+                            </div>
+                            
+
+                            
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 mt-4">
+                    <div class="box  bg-light p-4">
+                        <h2 class="pb-3">Latest Uploads</h2>
+                        <div class="Upload d-flex justify-content-between pb-2">
+                            <div class="file d-flex">
+                                <img src="imgs/pdf.svg" alt="">
+                                <div class="d-flex align-items-center">
+                                    <p class="m-0 ms-2">my-file.pdf <br>
+                                        <span class="text-black-50">Charifa</span>
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="button d-flex align-items-center">
+                                <span class="butn">2.9mb</span>
+                            </div>
+                        </div>
+                        <div class="Upload d-flex justify-content-between pb-2 pt-2">
+                            <div class="file d-flex">
+                                <img src="imgs/avi.svg" alt="">
+                                <div class="d-flex align-items-center">
+                                    <p class="m-0 ms-2">My-Video-File.avi <br>
+                                        <span class="text-black-50">User</span>
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="button d-flex align-items-center">
+                                <span class="butn">4.9mb</span>
+                            </div>
+                        </div>
+                        <div class="Upload d-flex justify-content-between pb-2 pt-2">
+                            <div class="file d-flex">
+                                <img src="imgs/psd.svg" alt="">
+                                <div class="d-flex align-items-center">
+                                    <p class="m-0 ms-2">My-Psd-File.pdf <br>
+                                        <span class="text-black-50">Admin</span>
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="button d-flex align-items-center">
+                                <span class="butn">4.5mb</span>
+                            </div>
+                        </div>
+                        <div class="Upload d-flex justify-content-between pb-2 pt-2">
+                            <div class="file d-flex">
+                                <img src="imgs/zip.svg" alt="">
+                                <div class="d-flex align-items-center">
+                                    <p class="m-0 ms-2">My-Zip-File.pdf <br>
+                                        <span class="text-black-50">User</span>
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="button d-flex align-items-center">
+                                <span class="butn">8.9mb</span>
+                            </div>
+                        </div>
+                        <div class="Upload d-flex justify-content-between pb-2 pt-2">
+                            <div class="file d-flex">
+                                <img src="imgs/dll.svg" alt="">
+                                <div class="d-flex align-items-center">
+                                    <p class="m-0 ms-2">My-DLL-File.pdf <br>
+                                        <span class="text-black-50">Admin</span>
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="button d-flex align-items-center">
+                                <span class="butn">4.9mb</span>
+                            </div>
+                        </div>
+                        <div class="Upload d-flex justify-content-between pt-2 pb-1">
+                            <div class="file d-flex">
+                                <img src="imgs/eps.svg" alt="">
+                                <div class="d-flex align-items-center">
+                                    <p class="m-0 ms-2">My-Eps-File.pdf <br>
+                                        <span class="text-black-50">Designer</span>
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="button d-flex align-items-center">
+                                <span class="butn">8.9mb</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-project col-sm-12 col-lg-6 mt-4">
+                    <div class="box bg-light p-4">
+                        <h2 class="pb-4">Last Project Progress</h2>
+                        <ul class="list-unstyled position-relative ">
+                            <li class="d-flex pb-3 align-items-center">Got The Project</li>
+                            <li class="d-flex pt-3 pb-3 align-items-center">Started The Project</li>
+                            <li class="d-flex pt-3 pb-3 align-items-center">The Project About To Finish</li>
+                            <li class="current d-flex pt-3 pb-3 align-items-center">Test The Project</li>
+                            <li class="d-flex pt-3 align-items-center">Finish The Project & Get Money</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 mt-4">
+                    <div class="box bg-light p-4">
+                        <h2 class="pb-3 ps-3">Reminders</h2>
+                        <div class="reminder ps-3 ms-4 mb-3">
+                            <p class="m-0">Check My Tasks List</p>
+                            <span class="text-black-50">28/09/2022 - 12:00am</span>
+                        </div>
+                        <div class="reminder ps-3 ms-4 mb-3 mt-4">
+                            <p class="m-0">Check My Tasks List</p>
+                            <span class="text-black-50">28/09/2022 - 12:00am</span>
+                        </div>
+                        <div class="reminder ps-3 ms-4 mb-3 mt-4">
+                            <p class="m-0">Check My Tasks List</p>
+                            <span class="text-black-50">28/09/2022 - 12:00am</span>
+                        </div>
+                        <div class="reminder ps-3 ms-4 mb-3 mt-4">
+                            <p class="m-0">Check My Tasks List</p>
+                            <span class="text-black-50">28/09/2022 - 12:00am</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 mt-4">
+                    <div class="Latest-Post box bg-light p-4">
+                        <h2 class="pb-3 ps-2">Latest Post</h2>
+                        <div class="post">
+                            <div class="header d-flex pb-4">
+                                <img class="ms-2" src="imgs/avatar2.jpeg" alt="">
+                                <div class="name ms-2">
+                                    Osama Elzero <br>
+                                    <span class="text-black-50">About 3 Hours Ago</span>
+                                </div>
+                            </div>
+                            <p class="pb-4 pt-4 ms-2">
+                                You Can Fool All Of The People Some Of The Time, And Some Of The People All Of The Time, But You Can't Fool All Of The People All Of The Time.
+                            </p>
+                            <div class="spans d-flex justify-content-between">
+                                <span class="text-black-50 ms-1"><i class="fa-regular fa-heart"></i> 1.8K</span>
+                                <span class="text-black-50"><i class="fa-regular fa-comments"></i> 500</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 mt-4">
+                    <div class="box bg-light p-4">
+                        <h2 class="pb-3 ps-2">Social Media Stats</h2>
+                        <div class="social-media d-flex align-items-center justify-content-between mt-3">
+                            <div class="part1 d-flex align-items-center">
+                                <i class="fa-brands fa-twitter me-3"></i>
+                                90K Followers
+                            </div>
+                            <button class="me-2"> Follow</button>
+                        </div>
+                        <div class="social-media FB d-flex align-items-center justify-content-between mt-3">
+                            <div class="part1 d-flex align-items-center">
+                                <i class="fa-brands fa-facebook-f me-3 "></i>
+                                2M Like
+                            </div>
+                            <button class="me-2">Like</button>
+                        </div>
+                        <div class="social-media d-flex YB align-items-center justify-content-between mt-3">
+                            <div class="part1 d-flex align-items-center">
+                                <i class="fa-brands fa-youtube me-3"></i>
+                                90K Followers
+                            </div>
+                            <button class="me-2"> Follow</button>
+                        </div>
+                        <div class="social-media IN d-flex align-items-center justify-content-between mt-3">
+                            <div class="part1 d-flex align-items-center">
+                                <i class="fa-brands fa-linkedin me-3"></i>
+                                90K Followers
+                            </div>
+                            <button class="me-2"> Follow</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mt-4">
+                  <div class="bg-light p-4">
+                    <h3 class="pb-3 ps-2">Projects</h3>
+                  <div class="table-responsive-sm">
+                    <table class="table table-bordred table-hover ">
+                        <thead >
+                          <tr class="row table-active">
+                            <th class="col-3 ps-3 pt-3 pb-3">Name</th>
+                            <th class="col-2 pt-3 pb-3">Finish Date</th>
+                            <th class="col-2 pt-3 pb-3">Client</th>
+                            <th class="col-1 pt-3 pb-3">Price</th>
+                            <th class="col-2 pt-3 pb-3">Team</th>
+                            <th class="col-2 pt-3 pb-3">Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="row">
+                              <td class="col-3 ps-3 pt-4 pb-4">Ministry Wikipedia</td>
+                              <td class="col-2 pt-4 pb-4">10 May 2022</td>
+                              <td class="col-2 pt-4 pb-4">Ministry</td>
+                              <td class="col-1 pt-4 pb-4">$5300</td>
+                              <td class="col-2 pt-4 pb-4 d-flex">
+                                <img src="imgs/team-01.png" alt="">
+                                <img src="imgs/team-02.png" alt="">
+                                <img src="imgs/team-03.png" alt="">
+                                <img src="imgs/team-05.png" alt="">
+                              </td>
+                              <td class="Projects col-2 pt-4 pb-4">
+                                <span class="butn">Pending</span>
+                              </td>
+                            </tr>
+                              <tr class="row ">
+                                <td class="col-3 ps-3 pt-4 pb-4">Charifa Shop</td>
+                                <td class="col-2 pt-4 pb-4">12 Oct 2021</td>
+                                <td class="col-2 pt-4 pb-4">Charifa Company</td>
+                                <td class="col-1 pt-4 pb-4">$1500</td>
+                                <td class="col-2 pt-4 pb-4 d-flex">
+                                  <img src="imgs/team-01.png" alt="">
+                                  <img src="imgs/team-03.png" alt="">
+                                  <img src="imgs/team-05.png" alt="">
+                                </td>
+                                <td class="col-2 pt-4 pb-4">
+                                  <span class="butn">In Progress</span>
+                                </td>
+                            </tr>
+                            <tr class="row ">
+                                <td class="col-3 ps-3 pt-4 pb-4">Bouba App</td>
+                                <td class="col-2 pt-4 pb-4">05 Sep 20211</td>
+                                <td class="col-2 pt-4 pb-4">Bouba</td>
+                                <td class="col-1 pt-4 pb-4">$800</td>
+                                <td class="col-2 pt-4 pb-4 d-flex">
+                                  <img src="imgs/team-01.png" alt="">
+                                  <img src="imgs/team-03.png" alt="">
+                                </td>
+                                <td class="col-2 pt-4 pb-4">
+                                  <span class="butn">Complated</span>
+                                </td>
+                            </tr>
+                            <tr class="row ">
+                                <td class="col-3 ps-3 pt-4 pb-4">Mahmoud Website</td>
+                                <td class="col-2 pt-4 pb-4">22 May 2021</td>
+                                <td class="col-2 pt-4 pb-4">Mahmoud</td>
+                                <td class="col-1 pt-4 pb-4">$600</td>
+                                <td class="col-2 pt-4 pb-4 d-flex">
+                                  <img src="imgs/team-01.png" alt="">
+                                  <img src="imgs/team-03.png" alt="">
+                                </td>
+                                <td class="col-2 pt-4 pb-4">
+                                  <span class="butn">Complated</span>
+                                </td>
+                            </tr>
+                            <tr class="row ">
+                                <td class="col-3 ps-3 pt-4 pb-4">Sayed Website</td>
+                                <td class="col-2 pt-4 pb-4">24 May 2021</td>
+                                <td class="col-2 pt-4 pb-4">Sayed</td>
+                                <td class="col-1 pt-4 pb-4">$300</td>
+                                <td class="col-2 pt-4 pb-4 d-flex">
+                                  <img src="imgs/team-01.png" alt="">
+                                  <img src="imgs/team-03.png" alt="">
+                                </td>
+                                <td class="col-2 pt-4 pb-4">
+                                  <span class="butn">Rejected</span>
+                                </td>
+                            </tr>
+                            <tr class="row ">
+                                <td class="col-3 ps-3 pt-4 pb-4">Arena Application</td>
+                                <td class="col-2 pt-4 pb-4">01 Mar 2021</td>
+                                <td class="col-2 pt-4 pb-4">Arena Company</td>
+                                <td class="col-1 pt-4 pb-4">$2600</td>
+                                <td class="col-2 pt-4 pb-4 d-flex">
+                                    <img src="imgs/team-01.png" alt="">
+                                    <img src="imgs/team-02.png" alt="">
+                                    <img src="imgs/team-03.png" alt="">
+                                    <img src="imgs/team-05.png" alt="">
+                                </td>
+                                <td class="col-2 pt-4 pb-4">
+                                  <span class="butn">Complated</span>
+                                </td>
+                            </tr>
+                          </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="JS/all.min.js"></script>
+    <script src="JS/bootstrap.bundle.js.map"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
